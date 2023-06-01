@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 
-var settings = {
+const settings = {
     dots: true,
     arrows: true,
     infinite: true,

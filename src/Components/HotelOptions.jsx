@@ -9,6 +9,7 @@ import { Navbar2 } from "../Components/Navbar2/Navbar2";
 import { hotels } from "./db";
 import { useState, useEffect } from "react";
 import NavbarSticky from "./Home/NavbarSticky";
+import Footer from "./Home/Footer";
 
 const MainDiv = styled.div`
   display: flex;
@@ -72,7 +73,7 @@ export const HotelOptions = () => {
             })}
           </RightDiv>
         </MainDiv>
-        <FooterTwo />
+        <Footer />
       </div>
     </div>
   );

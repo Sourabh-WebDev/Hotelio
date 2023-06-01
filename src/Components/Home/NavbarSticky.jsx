@@ -35,8 +35,8 @@ function NavbarSticky() {
           onClick={() => {
             history.push("/");
           }}
-          src="/Images/HotelioLogo.jpg"
-          width={120}
+          src="/Images/HotelioLogo.png"
+          width={100}
           alt="Union"
         />
         <div className="nav-sticky-container">

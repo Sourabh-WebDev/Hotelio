@@ -1,17 +1,28 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+
+
 function Footer() {
+
   return (
     <>
       <div className="footer">
         <div className="footer-sec1">
           <div>
-            {/* <img src="/Images/UnionWhite.png" alt="UnionWhite" /> */}
-            <p>The World’s Fastest Growing Hotel Chain</p>
+            {/* <img width={100} src="/Images/HotelioLogo.png" alt="UnionWhite" /> */}
+            <p>India’s No. 1 Fastest Leading Hotel Chain</p>
           </div>
           <div>
             <p>Join our network and grow your business!</p>
             <button>
               <img src="/Images/property.png" alt="property" />
-              List your rooms<br/>
+              List your rooms<br />
               with Hotelio
             </button>
           </div>
@@ -19,19 +30,30 @@ function Footer() {
         <div className="footer-sec3">
           <div>
             <h3>About Us</h3>
-            <p>Your Frendly Neighbourhood Hotel</p>
+            <p>Hotelio is a India's first leading platform that empowers <br /> entrepreneurs and small businesses with hotels <br /> and homes by providing full stack technology <br /> that increases earnings and eases operations. <br /> Bringing affordable and trusted accommodation <br /> that guests can book instantly.</p>
           </div>
           <div>
             <h3>Useful Links</h3>
-            <p>Executive Stays</p>
+            <p>Abouts Us</p>
+            <p>Conatct Us</p>
+            <p>Refund Policy</p>
+            <p>Term & Condition</p>
+            <p>Privacy & Policy</p>
           </div>
           <div>
-            <h3>Hotelio Facilities</h3>
-            <p>Unlocking Homes</p>
+            <Link style={{ color: "#fff" }} to='/'>
+              <h3>Hotelio Facilities</h3>
+              <p>Spa</p>
+              <p>Fitness Center</p>
+              <p>Swimming Pool</p>
+              <p>jacuzzi bath</p>
+
+            </Link>
           </div>
           <div>
             <h3>Contact Us</h3>
-            <p>Unlocking Homes</p>
+            <p style={{ display: 'flex', alignItems: 'center' }} ><PhoneInTalkOutlinedIcon /> +91-7290900835</p>
+            <p style={{ display: 'flex', alignItems: 'center' }} ><EmailOutlinedIcon /> info@hoteliorooms.com</p>
           </div>
         </div>
         {/* <div className="footer-sec4">
@@ -50,14 +72,13 @@ function Footer() {
             <img src="/Images/playstored.png" alt="playstored" />
           </div>
           <div>
-            <img src="/Images/facebookIcon.png" alt="img" />
-            <img src="/Images/InstagramIcon.png" alt="img" />
-            <img src="/Images/TwitterIcon.png" alt="img" />
-            <img src="/Images/MediaIcon.png" alt="img" />
-            <img src="/Images/PinIcon.png" alt="img" />
+            <FacebookOutlinedIcon />
+            <InstagramIcon />
+            <TwitterIcon />
+            <PinterestIcon />
           </div>
           <div>
-            <p>2013-2021 © Oravel Stays Private Limited</p>
+            <p>2023 © www.hoteliorooms.com</p>
           </div>
         </div>
       </div>

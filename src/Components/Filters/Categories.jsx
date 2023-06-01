@@ -24,7 +24,7 @@ export const Categories = () => {
         </div>
 
         <p>
-          OYO Rooms -{" "}
+          Hotelio Rooms -{" "}
           <span>Super affordable stays with essential amenities</span>
         </p>
       </Div>
@@ -35,7 +35,7 @@ export const Categories = () => {
         <p>
           Townhouse -{" "}
           <span>
-            Your friendly, premium neighbouhood hotel - Serviced by OYO
+            Your friendly, premium neighbouhood hotel - Serviced by Hotelio
           </span>
         </p>
       </Div>
@@ -45,7 +45,7 @@ export const Categories = () => {
         </div>
         <p>
           Flagship -{" "}
-          <span>Affordable hotels at Premium locations - Serviced by OYO</span>
+          <span>Affordable hotels at Premium locations - Serviced by Hotelio</span>
         </p>
       </Div>
     </>

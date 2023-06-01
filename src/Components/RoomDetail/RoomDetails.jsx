@@ -129,12 +129,12 @@ export function RoomDetails() {
                 </li>
                 <li>
                   This hotel is serviced under the trade name of Hotel Aalishan
-                  as per quality standards of OYO
+                  as per quality standards of Hotelio
                 </li>
               </ul>
               <div className="flex redFont policies">
                 <p>View Guest Policy</p>
-                <p>Find OYOS without these rules</p>
+                <p>Find HotelioS without these rules</p>
               </div>
             </div>
             <div>
@@ -269,7 +269,7 @@ export function RoomDetails() {
                   className="coupon-icon"
                   alt=""
                 />
-                <p>FINDOYO coupon applied</p>
+                <p>FINDHOTELIO coupon applied</p>
               </div>
               <div className="flex">
                 <h6>₹ -4760</h6>

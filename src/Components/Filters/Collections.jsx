@@ -47,7 +47,7 @@ export const Collections = () => {
           <Checkbox {...label} />
         </div>
         <p>
-          <span>OYO Welcomes Couples</span>
+          <span>Hotelio Welcomes Couples</span>
         </p>
       </Div>
     </>
