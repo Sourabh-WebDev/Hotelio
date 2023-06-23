@@ -80,6 +80,7 @@
   display: flex;
   align-items: center;
   background: #f2f2f2;
+
 }
 
 .locations div:nth-of-type(12) {
@@ -254,7 +255,7 @@
 }
 
 .rooms+button:hover {
-  background: #128037;
+  background: #df293a;
 }
 
 /* banner */
@@ -842,6 +843,7 @@
 .bubble div {
   display: flex;
   align-items: center;
+  word-wrap: break-word;
 }
 
 .bubble blockquote>b {
@@ -963,4 +965,47 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 15%;
+}
+
+
+.ResponsoiveHeader {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ResponsoiveHeader>div {
+  border-left: 1px solid red;
+  padding: 10px;
+}
+
+.ResponsoiveHeader :nth-child(1) {
+  border-left: none;
+}
+
+.mobileSearch {
+  background-color: #fff;
+  border-radius: 5%;
+  color: red;
+  /* max-width: 15rem; */
+  border: 1px solid red;
+}
+
+.mobileSearch input {
+  width: revert;
+  height: revert;
+  font-weight: revert;
+  font-size: revert;
+  line-height: revert;
+  padding-left: revert;
+  /* border: none; */
+  margin-right: revert;
+  background: revert;
+  border-radius: revert;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .locations {
+    display: none;
+  }
 }

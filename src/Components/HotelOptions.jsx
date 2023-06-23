@@ -67,7 +67,7 @@ export const HotelOptions = () => {
           </LeftDiv>
           <RightDiv>
             <TopFilterBar />
-            <Offer1 />
+            {/* <Offer1 /> */}
             {cardData.map((e) => {
               return <HotelInfo key={e.id} data={e} />;
             })}

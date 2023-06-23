@@ -272,7 +272,7 @@ export const HotelInfo = ({ key, data }) => {
                     onClick={handleBookNow}
                     variant="contained"
                     style={{
-                      backgroundColor: "#1AB64F",
+                      backgroundColor: "#df293a",
                       height: "70%",
                       marginLeft: "10px",
                       marginRight: 0,

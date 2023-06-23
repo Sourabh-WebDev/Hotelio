@@ -10,17 +10,21 @@ import WorldwideMarketing from "./WorldwideMarketing";
 import SliderComponent from "./SliderComponent";
 import Testimonial from "./Testimonial";
 import Process from "./Process";
+import ResponsiveHeader from "./ResponsiveHeader";
+import AboutUs from "./AboutUs";
 
 function HomeMain() {
   return (
     <div className="App">
       <StickyNavbar />
-      <NavbarHome />
+      <ResponsiveHeader />
+      {/* <NavbarHome /> */}
       <Locations />
       <SearchField />
       {/* <Banner /> */}
       <WorldwideMarketing />
       <Testimonial />
+      <AboutUs />
       <Process />
       <SliderComponent />
       <Footer />

@@ -2,6 +2,7 @@ import { RangeDatePicker } from "react-google-flight-datepicker";
 import "react-google-flight-datepicker/dist/main.css";
 import React, { useState, useRef, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import { TextField } from "@mui/material";
 
 function SearchField() {
   const history = useHistory();
@@ -35,6 +36,12 @@ function SearchField() {
 
   return (
     <>
+      <div style={{ top: '25%', zIndex: '1' }} className="search-field">
+        {/* <div className="mobileSearch">
+          <TextField id="standard-basic" label="Standard" variant="standard" />
+
+        </div> */}
+      </div>
       <div className="red-rectangle">
         <p className="heading-red-rectangle text-center">
           Welcome To Hotelio Rooms<br />
